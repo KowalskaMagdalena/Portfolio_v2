@@ -20,6 +20,21 @@ h6 {
   font-weight: bold;
 }
 
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -36,32 +51,8 @@ h6 {
 .hero h2 {
   font-family: var(--heading-font-family);
   font-weight: normal;
-  line-height: 2;
-  font-size: 24px;
-}
-
-.btn-branding {
-  background: var(--branding-color);
-  border-radius: 4px;
-  color: white;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
-}
-
-h1 {
-  font-size: 96px;
   line-height: 1.5;
-}
-
-h2 {
-  font-size: 64px;
-}
-
-p {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 24px;
 }
 
 .about-section {
@@ -80,6 +71,15 @@ p {
 
 .about-section-content {
   margin: 30px;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
 
 .btn-branding-outline {
